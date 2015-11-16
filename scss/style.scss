@@ -5,22 +5,22 @@ body {
 
 #team-members {
   clear: both;
-}
 
-#team-members .member {
-  float: left;
-  /*border: 1px solid gray;*/
-  margin: 10px;
-  padding: 6px;
-}
+  .member {
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px;
+  }
 
-#team-members .member img {
-  width: 200px;
-  height: 200px;
-}
+  .member img {
+    width: 200px;
+    height: 200px;
+  }
 
-#team-members .member div.name {
-  text-align: center;  
+  .member div.name {
+    text-align: center;  
+  }
 }
 
 $primaryColor: #FF0000;

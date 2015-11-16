@@ -8,10 +8,17 @@ body {
     float: left;
     /*border: 1px solid gray;*/
     margin: 10px;
-    padding: 6px; }
+    padding: 6px;
+    transition: all .2s ease-in-out; }
   #team-members .member img {
     width: 200px;
-    height: 200px; }
+    height: 200px;
+    border-radius: 50px;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc; }
+  #team-members .member:hover {
+    transform: scale(1.1); }
   #team-members .member div.name {
     text-align: center; }
 
